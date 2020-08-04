@@ -1,0 +1,33 @@
+{
+  "name": "webpack-sandbox-external-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin to treat a module as an external that's Electron sandbox safe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaneaSystems/webpack-sandbox-external-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "janeasystems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaneaSystems/webpack-sandbox-external-plugin/issues"
+  },
+  "homepage": "https://github.com/JaneaSystems/webpack-sandbox-external-plugin#readme",
+  "peerDependencies": {
+    "webpack": "^4.41.0"
+  },
+  "engines": {
+    "node": "^12.14.1",
+    "yarn": "^1.21.1"
+  },
+  "dependencies": {
+    "webpack-sources": "1.4.3"
+  }
+}
